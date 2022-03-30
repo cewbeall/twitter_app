@@ -21,7 +21,7 @@ function App() {
   return (
     <div class="Content">
       <Header />
-      <Link to="/profiles">Profiles</Link>
+      <Link to="/profiles">Profile</Link>
       <div class="Publish">
         <h3>Title: </h3>
         <input value={title} onChange={e => setTitle(e.target.value)} />
