@@ -25,7 +25,7 @@ const Counter = () => {
     <div style={{display: "flex"}}>
         <h3>Likes: {count} </h3>
         <button style={{marginLeft: 10}} onClick={increaseCount}>Like</button>
-        <button onClick={decreaseCount}>Dislike</button>
+        <button onClick={() => decreaseCount}>Dislike</button>
         {/* <h3>{isEven}</h3> */}
     </div>
     );

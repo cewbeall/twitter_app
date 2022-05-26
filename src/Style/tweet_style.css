@@ -1,7 +1,13 @@
-.Tweets {
-    border: 3px solid black;
-    margin: 10px;
+.components {
+    border-top: 1px solid lightgray;
+    margin: 0px;
     padding: 10px;
     /* display: flex; */
 
+}
+
+.bottomrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

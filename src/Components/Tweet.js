@@ -6,14 +6,16 @@ import Like from "../Components/Like.js";
 
 const Tweet = props => {
     return (
-      <div class="Tweets">
-        <p class="title">{props.title}</p>
+      <div class="components">
+        <h3 class="title">{props.title}</h3>
         <p class="author">{props.author}</p>
         <p class="content">{props.content}</p>
         <p class="date">{props.date}</p>
-        <Counter/>
-        <Like/>
-        <Retweet/>
+        {/* <Counter/> */}
+        <div class = "bottomrow">
+          <Like/>
+          <Retweet/>
+        </div>
       </div>
     );
   }
