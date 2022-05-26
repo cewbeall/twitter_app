@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    /* border: 1px solid lightgray; */
+}
+
+.link {
+    text-align: left;
+    margin: 20px;
+    margin-left: 100px;
+    border: 1px solid lightgray;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 5px;
+}

@@ -19,13 +19,15 @@
 
 .PublishButton {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 30% 40% 30%;
+    margin: 5px;
 }
 
 .searchBar {
     display: grid;
     grid-template-columns: 20% 80%;
-    margin: 5px;
+    margin: 0px;
+    border-top: 1px solid lightgray;
 }
 
 .tweets {

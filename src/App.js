@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Header from "./Components/Header.js";
 import Tweet from "./Components/Tweet.js";
+import SideBarLeft from "./Components/SideBarLeft.js";
 import Search from "./Components/Search.js"
 import Counter from "./Components/Counter.js";
 import {Link} from "react-router-dom"
@@ -45,7 +46,7 @@ function App() {
   return (
     <div class="page">
       <div class="left"> 
-        <Link to="/profiles">Profile</Link>
+        <SideBarLeft/>
       </div>
       <div class="Content">
         <Header />
@@ -68,7 +69,9 @@ function App() {
           } )}>database test</button> */}
 
           {/* <button onClick={ () => setTweets([...tweets, { title: title, author: author, content: content, date: new Date().getMonth() + 1 +"/"+ new Date().getDate() +"/"+ new Date().getFullYear() }])}>Publish Tweet</button> */}
+          <div></div>
           <button onClick={() => publishTweet()}>Publish Tweet</button>
+          <div></div>
         </div>
 
         <div class="searchBar">

@@ -1,18 +1,17 @@
-import {Link} from "react-router-dom"
 import SideBarLeft from "../Components/SideBarLeft.js"
 import React, {useState, useEffect} from 'react'
-import "../Style/profiles_style.css"
+import "../Style/saved_style.css"
 
 
-const Profiles = () => {
+const Saved = () => {
 
     return (
-        <div class="profilesContent">
+        <div class="savedContent">
             <SideBarLeft />
-            <h>Profile Page</h>
+            <h>Saved Tweets</h>
             <div></div>
         </div>
     )
 }
 
-export default Profiles
+export default Saved
